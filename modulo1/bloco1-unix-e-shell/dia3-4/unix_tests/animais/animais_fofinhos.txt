@@ -1,0 +1,5 @@
+gato
+cachorro
+pinscher
+urso
+cobra

@@ -1,0 +1,13 @@
+  425  tail ../animais/animais_fofinhos.txt
+  426  history | tail -5
+  427  history | tail -3 > historico.txt
+  420  tail ../animais/animais_fofinhos.txt
+  421  cd ..
+  422  mkdir teste
+  423  ls
+  424  cd teste
+  425  tail ../animais/animais_fofinhos.txt
+  426  history | tail -5
+  427  history | tail -3 > historico.txt
+  428  cat historico.txt
+  429  history | tail -10 >> historico.txt
