@@ -23,6 +23,16 @@ git checkout numero_do_commit~1  arquivo.txt // numero: primeiros 4 digitos do c
 **git ignore**
 
 ```
-.giti
+.gitignore
+cat >> .gitignore // adiciona a informação ao arquivo, como *.txt, ou arquivos.xls, diretorio/
+```
+
+**git fetch, pull e push**
+
+```
+git init
+git remote add repositorio git@github.com:...
+git commit -m 'mensagem do commit'
+git push -u repositorio m
 ```
 
