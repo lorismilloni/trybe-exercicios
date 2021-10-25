@@ -2,5 +2,6 @@
 # repositório de aulas ao vivo e exercícios praticados no curso de desenvolvimento web da Trybe
 
 ## começando
-``` git clone url
+```sh
+ git clone url
 ```
