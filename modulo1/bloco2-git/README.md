@@ -1,4 +1,4 @@
-# Bloco 2.1 - Git, GitHub e Internet
+# kdBloco 2.1 - Git, GitHub e Internet
 
   Os principais pontos abordados serão:
 
