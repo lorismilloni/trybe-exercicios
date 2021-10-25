@@ -33,6 +33,9 @@ cat >> .gitignore // adiciona a informação ao arquivo, como *.txt, ou arquivos
 git init
 git remote add repositorio git@github.com:...
 git commit -m 'mensagem do commit'
-git push -u repositorio m
+git push -u repositorio master // configura os pushs para o local e branch
+git push 
+git fetch // puxa do remoto para o repositório local
+git pull // verifica se tem alguma alteração e já faz o merge
 ```
 
