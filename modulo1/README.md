@@ -15,3 +15,8 @@
 
 * ​      Conte o número de linhas que contêm as letras  `br`      .    
 * ​      Conte o número de linhas que               **não**             contêm as letras  `br`      .    
+
+# 25.10
+
+* Softskills
+* Configuração git
