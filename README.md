@@ -1,86 +1,44 @@
-# Fundamentos do Desenvolvimento Web
+
 
 [toc]
 
-## Bloco 01: Unix & Bash
+Desenvolvimento Web Full-stack
 
-- [x] 1-3: Fundamentos do Desenvolvimento Web
-- [x] 1-3: Introdução - Unix & Shell
-- [x] 1-3: Unix & Bash - Parte 1
-- [x] 1-4: Unix & Bash - Parte 2
+## A Trybe
 
-#### status [concluído]
+<br>A [escola](https://www.betrybe.com/) tem um currículo com base no que o mercado de trabalho busca em profissionais de tecnologia. Ensina a programar, a aprender e trabalhar.
+O currículo é desenhado em parceria com pessoas referência em tecnologia e as empresas mais buscadas para se trabalhar do mercado. Dominarei as principais habilidades técnicas esperadas para o desenvolvimento web.
+A escola implementa melhorias contínuas, atualizando os conteúdos com base nos feedbacks que recebem dos alunos e do mercado.
+</br>
 
-## Bloco 02: Git, GitHub e Internet
+<br>As metodologias ativas garantem que o aprendizado seja colocando a mão na massa. Desenvolvendo projetos com problemas da vida real e vivenciando os desafios do mercado de trabalho. Com a comunidade digital, a pessoa estudante conta com momentos de interações para networking, para aprender ensinando e tirando dúvidas. É ensinado tudo que o mercado busca: conhecimento em programação e soft skills. Preparando para encarar todos os desafios encontrados nos processos seletivos. O relacionamento com o mercado já começa ao longo do curso.
 
-- [x] 2-1: Git & GitHub - O que é e para que serve
-- [x] 2-2: Git & GitHub - Entendendo os comandos
-- [ ] 2-3: Internet - Entendendo como ela funciona
+</br>
 
-#### status [em curso]
+# Fundamentos do Desenvolvimento Web [status: em curso]
 
-## Bloco 03: Introdução à HTML e CSS
+Tudo que você precisa saber para iniciar a carreira de desenvolvimento Web, preparando-se para os módulos de front-end e back-end.
 
-- [ ] 3-1: Introdução - HTML & CSS
-- [ ] 3-1: HTML & CSS - Estruturas de página
-- [ ] 3-2: HTML & CSS - Primeiros passos em CSS
-- [ ] 3-3: HTML & CSS - Seletores e posicionamento
-- [ ] 3-4: HTML Semântico
-- [ ] 3-5: Projeto - Lessons Learned
+- [x] Bloco 01: Unix & Bash
+- [x] Bloco 02: Git, GitHub e Internet
+- [ ] Bloco 03: Introdução à HTML e CSS
+- [ ] Bloco 04: Introdução à JavaScript e Lógica de Programação
+- [ ] Bloco 05: JavaScript: DOM, Eventos e Web Storage
+- [ ] Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
+- [ ] Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
+- [ ] Bloco 08: Higher Order Functions do JavaScript ES6
+- [ ] Bloco 09: JavaScript e Testes Assíncronos
 
-## Bloco 04: Introdução à JavaScript e Lógica de Programação
+# Desenvolvimento Front-end
 
-- [ ] 4-1: Introdução - JavaScript
-- [ ] 4-1: JavaScript - Primeiros passos
-- [ ] 4-2: JavaScript - Array e loop For
-- [ ] 4-3: JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4-4: JavaScript - Objetos e funções
-- [ ] 4-5: Projeto - Playground Functions
+Técnicas e ferramentas mais atuais para desenvolver um código de front-end que seja rápido, bonito e testável.
 
-## Bloco 05: JavaScript: DOM, Eventos e Web Storage
-
-- [ ] 5-1: JavaScript - DOM e seletores
-- [ ] 5-2: JavaScript - Trabalhando com elementos
-- [ ] 5-3: JavaScript - Eventos
-- [ ] 5-4: JavaScript - Web Storage
-- [ ] 5-5: Fundamentos - JavaScript - Projetos
-- [ ] 5-5: Projeto - Arte com Pixels
-- [ ] 5-6: Projeto - Lista de tarefas
-- [ ] 5-7: (Bônus) Projeto - Meme Generator
-- [ ] 5-7: (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5-7: (Bônus) Projeto - Carta Misteriosa
-
-## Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
-
-- [ ] 6-1: HTML & CSS - Forms
-- [ ] 6-2: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6-3: Introdução - CSS Flexbox
-- [ ] 6-3: CSS Flexbox - Parte 1
-
-- [ ] 6-4: CSS Flexbox - Parte 2
-- [ ] 6-5: CSS Responsivo - Mobile First
-- [ ] 6-6: Projeto - Trybewarts
-
-## Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
-
-- [ ] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7-2: JavaScript ES6 - Objects
-- [ ] 7-3: Primeiros passos em Jest
-- [ ] 7-4: Projeto - JavaScript Testes Unitários
-
-## Bloco 08: Higher Order Functions do JavaScript ES6
-
-- [ ] 8-1: JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8-4: JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8-6: Projeto - Zoo functions
-
-## Bloco 09: JavaScript e Testes Assíncronos
-
-- [ ] 9-1: JavaScript Assíncrono e Callbacks
-- [ ] 9-2: JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9-3: Jest - Testes Assíncronos
-- [ ] 9-4: Projeto - Carrinho de Compras
-
+- [ ] Bloco 10: Introdução à React
+- [ ] Bloco 11: Componentes com Estado, Eventos e Formulários com React
+- [ ] Bloco 12: Ciclo de Vida de Componentes e React Router
+- [ ] Bloco 13: Metodologias Ágeis
+- [ ] Bloco 14: Testes automatizados com React Testing Library
+- [ ] Bloco 15: Gerenciamento de estado com Redux
+- [ ] Bloco 16: Projeto Jogo de Trivia
+- [ ] Bloco 17: Context API e React Hooks
+- [ ] Bloco 18: Projeto App de Receitas
