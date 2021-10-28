@@ -2,18 +2,15 @@
 
 [toc]
 
-Desenvolvimento Web Full-stack
+# Desenvolvimento Web Full-stack
 
 ## A Trybe
 
-<br>A [escola](https://www.betrybe.com/) tem um currículo com base no que o mercado de trabalho busca em profissionais de tecnologia. Ensina a programar, a aprender e trabalhar.
+A [escola](https://www.betrybe.com/) tem um currículo com base no que o mercado de trabalho busca em profissionais de tecnologia. Ensina a programar, a aprender e trabalhar.
 O currículo é desenhado em parceria com pessoas referência em tecnologia e as empresas mais buscadas para se trabalhar do mercado. Dominarei as principais habilidades técnicas esperadas para o desenvolvimento web.
 A escola implementa melhorias contínuas, atualizando os conteúdos com base nos feedbacks que recebem dos alunos e do mercado.
-</br>
 
-<br>As metodologias ativas garantem que o aprendizado seja colocando a mão na massa. Desenvolvendo projetos com problemas da vida real e vivenciando os desafios do mercado de trabalho. Com a comunidade digital, a pessoa estudante conta com momentos de interações para networking, para aprender ensinando e tirando dúvidas. É ensinado tudo que o mercado busca: conhecimento em programação e soft skills. Preparando para encarar todos os desafios encontrados nos processos seletivos. O relacionamento com o mercado já começa ao longo do curso.
-
-</br>
+As metodologias ativas garantem que o aprendizado seja colocando a mão na massa. Desenvolvendo projetos com problemas da vida real e vivenciando os desafios do mercado de trabalho. Com a comunidade digital, a pessoa estudante conta com momentos de interações para networking, para aprender ensinando e tirando dúvidas. É ensinado tudo que o mercado busca: conhecimento em programação e soft skills. Preparando para encarar todos os desafios encontrados nos processos seletivos. O relacionamento com o mercado já começa ao longo do curso.
 
 # Fundamentos do Desenvolvimento Web [status: em curso]
 

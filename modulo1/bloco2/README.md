@@ -157,7 +157,7 @@ Quando você for pensar no design de uma aplicação web, por exemplo, terá que
 - DNS: DNS ou *Domain Name System* é um dispositivo com uma base de dados distribuída que gerencia os nomes de serviços, computadores ou qualquer dispositivo conectado à Internet. Ele é usado para relacionar o endereço nominal (google.com)  com o endereço IP. Os servidores DNS são responsáveis por localizar e  traduzir para números (um endereço IP) as buscas por sites que digitamos no navegador.    
 - Port Number: O número de porta é um número de 16 bits utilizado para identificar uma porta específica no servidor, e está sempre  associado ao endereço IP. O *Port number* é uma forma de identificar um processo específico encaminhado para o servidor.    
 - Host: O *Host* é qualquer computador conectado à rede, seja como cliente,  servidor ou qualquer outro tipo de dispositivo. Cada host tem um  endereço IP único. Para o site que estamos buscando, *www.google.com*, o host é o servidor web que hospeda a página na web. É comum  confundir o host com o servidor. Lembre-se que eles são coisas diferentes! O Servidor é um tipo de host - uma máquina específica com  endereço IP. Por outro lado, o host pode ser também uma organização inteira que fornece um serviço de hospedagem para manter inúmeros  servidores web.    
-- HTTP:  *Hyper-text Transfer Protocol* é o protocolo utilizado para a comunicação entre navegadores e servidores na Internet.    
+- HTTP: *Hyper-text Transfer Protocol* é o protocolo utilizado para a comunicação entre navegadores e servidores na Internet.    
 - URL: O URL é a sigla para *Uniform Resource Locators* e identifica um recurso web específico. Podemos, como exemplo, mudar a nossa busca para *[https://www.google.com/travel/flights](https://www.google.com/travel/flights)* para pesquisar por preços de passagens aéreas. O URL identifica o protocolo que será utilizado para comunicarmos com o servidor (https), o nome do host (google.com) e o recurso que queremos acessar (travel/flights).
 
 Aplicações web seguem uma estrutura básica muito similar. Elas são compostas por um cliente, um servidor e uma base de dados.
@@ -271,7 +271,7 @@ Você pode já ter ouvido falar do termo **RESTful** para descrever uma aplicaç
 
 `curl` um comando disponível na maioria dos sistemas baseados em Unix que serve para verificar conectividade, além transferir dados via terminal.
 
-```
+```bash
 curl --version
 -u ou --user : Permite especificar nome de usuário e senha para autenticação no servidor.
 -T ou --upload-file : Permite transferir arquivos locais para uma URL remota.

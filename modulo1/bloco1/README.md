@@ -4,7 +4,7 @@
 
 # 1.3 - Unix & Bash - Parte 1
 
-```
+```bash
 ls
 ls -a // arquivos ocultos
 mkdir
@@ -93,7 +93,7 @@ Para os próximos exercícios, crie um novo arquivo chamado `phrases.txt` e adic
 7. Liste todos os arquivos que terminem com `tbt` ou `txt`.    
 8. Acesse o manual do comando ls`.    
 
-# 1.4 Unix & Bash - Parte 2
+# 1.4 - Unix & Bash - Parte 2
 
 Acessos e permissões: `ls -l`
 
@@ -127,7 +127,7 @@ Também é possível usar o modo octal. Para compreendermos esta outra forma, pr
 
 Esses valores são permissões com base em bits de **ligados = 1** e **desligados = 0**,
 
-```
+```sh
 rwx = 111 ( 7 | Acesso Total )
 r-- = 100 ( 4 | Somente Leitura )
 -w- = 010 ( 2 | Somente Escrita )
@@ -140,7 +140,7 @@ r-x = 101 ( 5 | Somente Leitura e Execução )
 
 Portanto, cada vez que você liga a chave de leitura, atribui-se o valor para esta chave somando-se com as demais chaves de administração de  escrita e execução caso você também deseje ligá-las. A sintaxe para realizar esta alteração continua a mesma que no modo literal, sendo `chmod 766 [arquivo ou diretório]`. 
 
-```
+```sh
 comando > arquivo // redireciona a saída padrão para um arquivo
 comando >> arquivo // adiciona a um arquivo
 comando < arquivo // redireciona a entrada padrão de um arquivo
@@ -221,7 +221,7 @@ kill pid // encerra o processo pelo número pid
 Comandos divertidos do Unix?
 
 1. Se você utiliza o **Linux**, abra o terminal e execute o comando `sudo apt-get install cmatrix`. Quando estiver se sentindo como o *Neo*, aperte  `ctrl+c` para voltar ao terminal;
-2. No sistema **Linux**, execute o comando  `sudo apt-get install fortune` e após a instalação, crie um arquivo de texto chamado `fortune.txt` que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando  `fortune`, e o operador  `>` ;*         
+2. No sistema **Linux**, execute o comando  `sudo apt-get install fortune` e após a instalação, crie um arquivo de texto chamado `fortune.txt` que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando  `fortune`, e o operador  `>` ;         
 3. Conte quantas palavras tem a frase da sua sorte do dia. *Dica: use o comando  `wc`;*          
 4. Execute o comando `sudo apt-get install sl` em um terminal **Linux**. Após a instalação, execute o comando `sl` . Agora tente  `sl -F`;    
 5. Execute o comando `sudo apt-get install cowsay`. Após a instalação, execute o comando `cowsay` e algo que você queira falar. Agora faça a vaquinha dizer a frase que está gravada no arquivo  `fortune.txt` ;    
