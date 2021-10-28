@@ -2,6 +2,31 @@
 
 # Fundamentos do Desenvolvimento Web
 
+```html
+<head>
+    <title>Fundamentos do Desenvolvimento Web</title>
+    <style>
+        h1 {
+            width: 50px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fundamentos do Desenvolvimento Web</h1>
+    <h2>Bloco 01: Unix e Bash</h2>
+	<ol>
+        <li>-3: Fundamentos do Desenvolvimento Web</li>
+        <li>-3: Introdução - Unix e Shell</li>
+        <li>-3: Unix e Bash - Parte 1</li>
+        <li>-4: Unix e Bash - Parte 2</li>
+    </ol>
+    <h2>
+        <p>Apenas uma brincadeira, segue o Markdown:</p>
+    </h2>
+</body>
+```
+
 Tudo que você precisa saber para iniciar a carreira de desenvolvimento Web, preparando-se para os módulos de front-end e back-end.
 
 ## Bloco 01: Unix & Bash
@@ -23,9 +48,9 @@ Tudo que você precisa saber para iniciar a carreira de desenvolvimento Web, pre
 
 ## Bloco 03: Introdução à HTML e CSS
 
-- [ ] 3-1: Introdução - HTML & CSS
-- [ ] 3-1: HTML & CSS - Estruturas de página
-- [ ] 3-2: HTML & CSS - Primeiros passos em CSS
+- [x] 3-1: Introdução - HTML & CSS
+- [x] 3-1: HTML & CSS - Estruturas de página
+- [x] 3-2: HTML & CSS - Primeiros passos em CSS
 - [ ] 3-3: HTML & CSS - Seletores e posicionamento
 - [ ] 3-4: HTML Semântico
 - [ ] 3-5: Projeto - Lessons Learned
