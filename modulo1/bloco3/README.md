@@ -54,7 +54,7 @@ HTML 5: 2014, possibilitou adicionar vídeos e áudios
 
 ### tags HTML
 
-```
+```html
 <br>
 <strong></strong>
 <em></em>
@@ -81,6 +81,46 @@ comandos aula
 ```
 cp ../images . -r // recursivo para copiar diretórios
 ```
+
+### exercícios
+
+Crie uma lista das pessoas que você já fez amizade na Trybe.
+
+Adicione uma imagem que venha de uma URL externa.
+
+Adicione uma imagem que está no seu computador, local.
+
+Crie um parágrafo para cada pessoa da sua lista.
+
+Crie um link entre a sua lista e os parágrafos de pessoas.
+
+Crie um link para a página do Google.
+
+## portfólio
+
+Crie um novo diretório onde você vai desenvolver o seu portfólio. É importante que ele seja criado fora do seu diretório de exercícios, pois a sua manutenção daqui em diante será feita em outro ambiente; 
+
+Inicie um novo repositório local com  `Git` no diretório que você criou na etapa 1;  
+
+Crie um arquivo  `index.html` ;  
+
+#### seu Portfólio Web deve ter as seguintes informações:
+
+Seu nome completo;    
+
+Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;    
+
+Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;    
+
+Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha;
+
+Um link interno para a sua foto;    
+
+Um link externo para algum blog de que você goste, que abra em uma nova aba;    
+
+Partes do seu portfólio destacadas com negrito e/ou itálico;    
+
+Um índice com links internos para as diferentes seções do seu portfólio.    
 
 # 3.2 - HTML & CSS - Primeiros passos em CSS
 
@@ -302,7 +342,7 @@ O ideal é que o HTML seja para estrutura e o CSS seja para formatação, para q
 
 10. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
 
-11. Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo
+11. <!--Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo-->
 
 ### tarefinha
 
