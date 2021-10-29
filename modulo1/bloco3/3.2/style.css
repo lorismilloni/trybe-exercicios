@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Exercícios do bloco, número 3.2</title>
+<head>
+	<meta>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
     <style>
         h1 {
             font-size: 65px;
@@ -53,18 +52,4 @@
             color: purple;
         }
     </style>
-  </head>
-  <body>
-    <h1>Exercícios do bloco, número 3.2</h1>
-    <h2>Minhas cores preferidas:</h2>
-    <br>
-    <ul class="background-style">
-        <li class="vermelho">Vermelho</li>
-        <li class="azul">Azul</li>
-        <li class="laranja">Laranja</li>
-        <li class="roxo">Roxo</li>
-    </ul>
-    <p>E seriam todos os parágrafos bonitos como esse ou só em<br>
-     Alice as coisas atravessam os espelhos?</p>
-  </body>
-</html>
+</head>

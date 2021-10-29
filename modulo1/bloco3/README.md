@@ -342,7 +342,7 @@ O ideal é que o HTML seja para estrutura e o CSS seja para formatação, para q
 
 10. Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
 
-11. <!--Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo-->
+11. Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo
 
 ### tarefinha
 
