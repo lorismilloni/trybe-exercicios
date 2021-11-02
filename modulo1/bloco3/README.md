@@ -503,7 +503,7 @@ li:active {
         border: 5px solid yellow;
     }
 
-    p.perigo { todos os parágrafos que tem a classe perigo dentro
+    p.perigo { // todos os parágrafos que tem a classe perigo dentro
         border: 5px solid yellow;
     }
 
@@ -602,6 +602,68 @@ Na listagem de linguagens de programação, faça com que as 3  primeiras da lis
         <li>Item</li>
         <p>Parágrafo filho</p>
     </ul>    
-    </body>
+</body>
 ```
 
+### exercícios portfolio
+
+- Aplicar layout mais consistente usando elementos de bloco e inline, aplicando todo o conhecimento que você construiu hoje;    
+- Salvar todas as estilizações dentro de um arquivo externo `style.css`;    
+- Usar *Box Model* para organizar melhor os elementos no seu *Portfólio Web*;    
+- Atualizar seu *Portfólio Web* no  [GitHub Pages](https://pages.github.com/).    
+- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;    
+- A descrição deve ficar *ao lado* da foto;    
+- Centralize seu nome na página;    
+- Use `padding` e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;    
+- Adicione `margin` e `padding` nos elementos que julgar necessário;    
+- Coloque estilo somente nos itens ímpares da lista das suas habilidades. 
+
+##### como ver as divs
+
+**no html**
+
+```html
+<div>
+	<div>
+		<div>
+		</div>
+	</div>
+</div>
+```
+
+**no css**
+
+```css
+div {
+    border: 2px solid green;
+}
+```
+
+**recurso interessante**
+
+```css
+ul li:nth-child(odd) {
+	color: red;
+}
+```
+
+**é possível visualizar e alterar elementos na página, usando o inspecionar**
+
+[toc]
+
+# 3.4 - HTML Semântico
+
+- Fazer uso de elementos HTML de acordo com o sentido e o propósito que eles carregam. Tais elementos incluem, mas não se limitam a: header, nav, aside, article, section, footer e img;
+- Criar páginas semanticamente válidas e acessíveis;
+- Entender a diferença entre elementos de bloco e elementos inline.
+
+Aplicar elementos HTML resulta em páginas melhor ranqueadas em motores de busca (e.g. Google) e mais acessíveis.
+
+`html` representa o tipo do documento em questão, que nesse caso é HTML;
+`head` representa os metadados do documento HTML, tais como o título do documento, links para arquivos CSS e JavaScript de que o documento precisa;
+`body` representa todo o conteúdo visual do documento HTML;
+`form` representa um formulário para que o usuário consiga inserir dados.
+
+`table`, `footer`,
+
+wcag: world content acessibility guidelines
