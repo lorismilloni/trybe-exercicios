@@ -670,7 +670,7 @@ wcag: world content acessibility guidelines
 
 ## elementos de bloco e elementos inline
 
-elementos block
+### elementos block
 
 - ocupam 100% da largura do elemento pai;
 - ocupam a própria linha, sendo posicionados abaixo do elemento anterior;
@@ -687,7 +687,7 @@ header
 p
 ```
 
-elementos inline
+### elementos inline
 
 - ocupam a largura do próprio conteúdo;
 - dois ou mais elementos inline em sequência, são posicionados lado a lado;
@@ -703,7 +703,7 @@ b
 i
 ```
 
-elementos inline-block
+### elementos inline-block
 
 - ocupam por padrão a largura do conteúdo;
 - dois ou mais elementos inline-block em sequência, são posicionados lado a lado;
@@ -739,29 +739,49 @@ mudando a propriedade
 }
 ```
 
-### <header>
+### Header <header>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 
-### <nav>
+### Navigation <nav>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
 
-### <aside>
+### Sidebars <aside>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
-### <article>
+### Compositions <article>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
 
-### <section>
+### Sections <section>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
 
-### <footer>
+### Footer <footer>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
+
+## Aula
+
+```html
+<body>
+    <h1 style="display: none;">Título do body</h1>
+    <header>
+        <section>
+            <h1></h1>
+            <h2></h2>
+        </section>
+        <nav>
+        </nav>
+	</header>
+    <main>
+        <section>
+        </section>
+    </main>
+</body>
+```
 
 
 
