@@ -777,8 +777,26 @@ mudando a propriedade
         </nav>
 	</header>
     <main>
-        <section>
-        </section>
+        <div>
+            <article>
+                <h2>Título do artigo</h2>
+            </article>
+            <section>
+            	<article>
+                	<h3>Título do artigo</h3>
+            	</article>
+            </section>
+        </div>
+        <aside>
+            <section>
+                <h2>Título</h2>
+            </section>
+            <section>
+                <h2>Título</h2>
+            </section>
+        </aside>
+        <footer>
+        </footer>
     </main>
 </body>
 ```
