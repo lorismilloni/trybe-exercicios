@@ -664,6 +664,104 @@ Aplicar elementos HTML resulta em páginas melhor ranqueadas em motores de busca
 `body` representa todo o conteúdo visual do documento HTML;
 `form` representa um formulário para que o usuário consiga inserir dados.
 
-`table`, `footer`,
+`table`, `footer`, `header`, `article`, `aside`, `nav`, `main`, `section`, `article`
 
 wcag: world content acessibility guidelines
+
+## elementos de bloco e elementos inline
+
+elementos block
+
+- ocupam 100% da largura do elemento pai;
+- ocupam a própria linha, sendo posicionados abaixo do elemento anterior;
+- a altura padrão é definida pelo tamanho do conteúdo;
+- é possível alterar as propriedades de tamanho e largura;
+- é possível alterar todas as propriedades de margem;
+
+```css
+div
+section
+ul
+li
+header
+p
+```
+
+elementos inline
+
+- ocupam a largura do próprio conteúdo;
+- dois ou mais elementos inline em sequência, são posicionados lado a lado;
+- não é possível alterar as propriedades de altura e largura;
+- somente é possível alterar as margens horizontais;
+- ao aplicar float, automaticamente se transformam em elementos block;
+- se comportam como um texto;
+
+```html
+a
+span
+b
+i
+```
+
+elementos inline-block
+
+- ocupam por padrão a largura do conteúdo;
+- dois ou mais elementos inline-block em sequência, são posicionados lado a lado;
+- é possível alterar as propriedades de tamanho e largura;
+- é possível alterar todas as propriedades de margem;
+
+```css
+.nav-links li {
+	display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+```
+
+mudando a propriedade
+
+```html
+<nav id="nav">
+	<ul class="nav-links">
+		<li> <a href="">Home</a></li>
+		<li> <a href="">Perfil</a></li>
+        <li> <a href="">Contatos</a></li>
+	</ul>
+</nav>
+```
+
+```css
+.nav-links li {
+	display: inline;
+    width: 100px;
+    height: 50px;
+}
+```
+
+### <header>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+
+### <nav>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
+### <aside>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+### <article>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+
+### <section>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+
+### <footer>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
+
+
+
