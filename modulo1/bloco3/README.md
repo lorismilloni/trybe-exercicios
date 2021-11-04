@@ -406,7 +406,11 @@ Como os elementos se relacionam na tela em uma página HTML renderizada no brows
 
 ### box model
 
+<<<<<<< HEAD
 ![](/home/lorisms/Tryb/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
+=======
+![](/home/lorisms/Documentos/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
+>>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
 
 `padding`
 
@@ -763,10 +767,13 @@ mudando a propriedade
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
 
+<<<<<<< HEAD
 ### Table <table>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 
+=======
+>>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
 ## Aula
 
 ```html
@@ -805,6 +812,7 @@ mudando a propriedade
 </body>
 ```
 
+<<<<<<< HEAD
 ### Exercícios
 
 Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
@@ -831,3 +839,7 @@ Adicione um rodapé na página, mostrando algo do gênero:
 `"Conteúdo compilado por <insere seu nome>, <ano atual>".`
 
 Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img . 
+=======
+
+
+>>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd

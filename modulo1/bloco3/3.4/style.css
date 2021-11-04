@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, Helvetica, sans-serif
 }
 
 h2 {
     text-align: ;
+=======
+h1 {
+    text-align: center;
+>>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
 }
 
 ul li {
@@ -11,6 +16,7 @@ ul li {
     padding: 20px;
     margin-top: 2px;
     border: 1px solid black;
+<<<<<<< HEAD
 }
 
 table,
@@ -22,4 +28,6 @@ td {
 
 #italic {
     font-style: italic;
+=======
+>>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
 }
