@@ -104,7 +104,7 @@ Inicie um novo repositório local com  `Git` no diretório que você criou na et
 
 Crie um arquivo  `index.html` ;  
 
-#### seu Portfólio Web deve ter as seguintes informações:
+### seu Portfólio Web deve ter as seguintes informações:
 
 Seu nome completo;    
 
@@ -406,11 +406,7 @@ Como os elementos se relacionam na tela em uma página HTML renderizada no brows
 
 ### box model
 
-<<<<<<< HEAD
-![](/home/lorisms/Tryb/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
-=======
-![](/home/lorisms/Documentos/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
->>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
+![](/home/lorisms/Trybe/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
 
 `padding`
 
@@ -622,7 +618,7 @@ Na listagem de linguagens de programação, faça com que as 3  primeiras da lis
 - Adicione `margin` e `padding` nos elementos que julgar necessário;    
 - Coloque estilo somente nos itens ímpares da lista das suas habilidades. 
 
-##### como ver as divs
+## como ver as divs
 
 **no html**
 
@@ -743,38 +739,35 @@ mudando a propriedade
 }
 ```
 
-### Header <header>
+## Header <header>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 
-### Navigation <nav>
+## Navigation <nav>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
 
-### Sidebars <aside>
+## Sidebars <aside>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
-### Compositions <article>
+## Compositions <article>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
 
-### Sections <section>
+## Sections <section>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
 
-### Footer <footer>
+## Footer <footer>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
 
-<<<<<<< HEAD
-### Table <table>
+## Table <table>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 
-=======
->>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
-## Aula
+### Aula
 
 ```html
 <body>
@@ -812,7 +805,6 @@ mudando a propriedade
 </body>
 ```
 
-<<<<<<< HEAD
 ### Exercícios
 
 Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
@@ -838,8 +830,23 @@ Adicione um rodapé na página, mostrando algo do gênero:
 
 `"Conteúdo compilado por <insere seu nome>, <ano atual>".`
 
-Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img . 
-=======
+Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img.
 
+[toc]
 
->>>>>>> 75aef92c4cd0f8ba01052ff35639acc13f4ae8fd
+# 3.5 - Projeto: Lessons learned
+
+## Objetivos
+
+- Entender como funciona a estrutura (HTML) de uma página;
+- Entender como o estilo (CSS) é aplicado à página.
+- Construir páginas utilizando HTML e CSS;
+- Realizar manutenções em páginas já existentes;
+- Aplicar Layout e Box Model na prática;
+
+## O que vamos avaliar?
+
+- Aderência do código à especificação. Sua página deve se comportar como especificado na próxima seção.
+- Organização do seu código. Construa a estrutura do seu HTML dividindo as tags adequadamente e faça commits organizados.
+- Sua capacidade de estruturar semanticamente uma página HTML . Utilize as tags corretas, bem indentadas e com as classes e ids adequados.
+- A estrutura do seu CSS . Evite repetição. Combine e agrupe classes CSS bem definidas.
