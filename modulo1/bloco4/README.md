@@ -281,3 +281,17 @@ switch (weekDay) {
 }
 ```
 
+# Arrays e Loop For
+
+## Variáveis simples e compostas:
+
+```javascript
+let pizza1 = '4 queijos';
+let pizza2 = 'Frango com catupiry';
+let pizza3 = 'Palmito';
+```
+
+```javascript
+let pizzas = ['4 queijos', 'Frango com catupiry', ''];
+```
+
