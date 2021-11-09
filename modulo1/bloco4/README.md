@@ -281,6 +281,8 @@ switch (weekDay) {
 }
 ```
 
+[toc]
+
 # Arrays e Loop For
 
 ## Variáveis simples e compostas:
@@ -475,4 +477,34 @@ for (let index = 1; index < array.length; index += 1) {
 * Agora crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
 
   `[45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]`
+
+[toc]
+
+# Objetos e funções
+
+- Manipular objetos;
+- Utilizar o comando for/in;
+- Utilizar funções para organizar e estruturar o seu código;
+
+## Objetos
+
+* nos permite armazenar entradas do tipo chave: valor;
+
+```
+let name = 'Milton';
+let lastName = 'Nascimento';
+let nickname = 'Bituca';
+let age = 77;
+let bestAlbuns = ['Travessia', 'Clube da Esquina', 'Minas'];
+
+let singer = {
+	name: 'Milton',
+	lastName: 'Nascimento',
+	nickname: 'Bituca',
+	age = 77,
+	bestAlbuns: ['Travessia', 'Clube da Esquina', 'Minas']
+}; 
+
+console.log('O cantor ' + singer.name + ' ' + singer.lastName + ' possui ' + singer.age + ' anos.');
+```
 
