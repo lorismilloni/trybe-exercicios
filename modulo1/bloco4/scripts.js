@@ -1,4 +1,4 @@
-const myName = "Loris";
+/* const myName = "Loris";
 const birthCity = "Palmas";
 let birthYear = 1995;
 let age = 26;
@@ -74,3 +74,93 @@ if (weekDay === "segunda-feira" || weekDay === "terça-feira" || weekDay === "qu
 } else {
     console.log("FINALMENTE, descanso merecido UwU")
 }
+
+let pizzas = ['4 queijos', 'Frango com catupiry', 'Palmito'];
+
+for (let index = 0; index < pizzas.length; index += 1) {
+	console.log(pizzas[index]);
+}
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let index = 0; index < groceryList.length; index += 1) {
+    console.log(groceryList[index]);
+  }
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (let nomes of names) {
+    console.log(nomes);
+} */
+
+// exercícios
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let soma = 0;
+let media = 0;
+let menor = numbers[0];
+
+/* for (let i = 0; i < numbers.length; i += 1) {
+    console.log(numbers[i]);
+} */
+
+/* for (let i = 0; i < numbers.length; i += 1) {
+    soma += numbers[i];
+}
+
+console.log(soma); */
+
+/* for (let i = 0; i < numbers.length; i += 1) {
+    soma += numbers[i];
+    media = soma / numbers.length;
+}
+if (media > 20) {
+    console.log('valor maior que 20');
+} else {
+    console.log('valor menor ou igual a 20');
+} */
+
+/* for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] < menor) {
+        menor = numbers[i];
+    }
+}
+console.log(menor); */
+
+/* for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] > menor) {
+        menor = numbers[i];
+    }
+}
+console.log(menor); */
+
+/* let impar = [];
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 != 0) {
+        impar.push(numbers[i]);
+    } else {
+        console.log('nenhum valor ímpar encontrado')
+    }
+}
+
+console.log(impar) */
+
+array = [];
+
+for (let i = 1; i <= 25; i += 1) {
+    array.push(i);
+}
+
+console.log(array);
+
+let division = [];
+
+for (let i = 0; i < array.length; i += 1) {
+    division.push(array[i] / 2);
+    console.log(division);
+}
+
+
+
+

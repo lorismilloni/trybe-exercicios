@@ -292,6 +292,166 @@ let pizza3 = 'Palmito';
 ```
 
 ```javascript
-let pizzas = ['4 queijos', 'Frango com catupiry', ''];
+let pizzas = ['4 queijos', 'Frango com catupiry', 'Palmito'];
+pizzas[3] = 'Peito de peru';
+pizzas.push('Marguerita');
+pizzas.length;
+pizzas.sort();
+pizzas[2];
+for (let index = 0; index < pizzas.length; index += 1) {
+	console.log(pizzas[index]);
+}
 ```
 
+## .push() e .unshift()
+
+```javascript
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+tasksList.push('Fazer exercícios da Trybe');  // adiciona mais uma tarefa
+console.log(tasksList);
+```
+
+* se precisarmos adicionar no início, podemos usar o  `.unshift()`;
+
+## .pop() e .shift()
+
+```javascript
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+tasksList.pop();  // remove a última tarefa
+console.log(tasksList);
+
+// ['Tomar café', 'Reunião']
+```
+
+* se precisarmos remover o primeiro item da lista, podemos usar o  `.shift()`;
+
+## indexOf
+
+```javascript
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+let indexOfTask = tasksList.indexOf('Reunião');
+console.log(indexOfTask);
+
+// 1
+```
+
+## for of
+
+```javascript
+let numeros = [1,2,3,4,5];
+for(let numero of numeros) {
+  console.log(numero);
+}
+
+// resultado: 
+//1
+//2
+//3
+//4
+//5
+
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+  sum += 1;
+  console.log(sum);
+}
+// 11
+// 21
+// 31
+```
+
+## Aula
+
+o que vermos com colchetes é array em qualquer linguagem de programação;
+
+variáveis locais: criadas internamente, só existem dentro desse contexto; array de atribuição externa/global:
+
+```javascript
+let fruta1 = "maçã";
+let fruta2 = "laranja";
+let fruta3 = "abacaxi";
+
+let frutas = [fruta1,fruta2,fruta3];
+```
+
+Atribuição híbrida:
+
+```javascript
+let frutas = [fruta1, fruta2, "abacaxi", false]
+```
+
+Saída de dados:
+
+```javascript
+console.log("saída: ", frutas) //saíria o array com os colchetes
+console.log("saída: ", frutas[0])
+```
+
+For:
+
+```javascript
+let r = 0;
+
+for (i = 0; i < 20; i++) {
+	r += i;
+}
+```
+
+i++ diferença:
+
+```javascript
+i++ = i + 1
+i += 1 //é possível usar com 2, 3, 4, 5, não só 1
+```
+
+For of:
+
+```javascript
+let frutas = ["Maçã", "Laranja", "Abacaxi"];
+for (let fruta of frutas) {
+	console.log("resultado: ", fruta)
+}
+```
+
+For e if
+
+```javascript
+let frutas = ["Maçã", "Laranja", "Abacaxi", "Limao", "Melancia"];
+let frutasCitricas = ["Laranja", "Limao"]
+
+for (let i = 0; i < frutas.length; i++) {
+	if (frutas[i] == frutasCitricas[0]) {
+		arrayFinal.push(frutas[i])
+	}
+}
+
+for (let i = 0; i < frutas.length; i++) {
+	if (frutas[i] == frutasCitricas[0] || frutas[i] == frutasCitricas[1]) {
+		arrayFinal.push(frutas[i])
+	}
+}
+
+for(let i = 0; i < arrayFinal.length; i++) {
+    console.log("resultado: ", arrayFinal[i])
+}
+```
+
+## Exercícios
+
+```javascript
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+```
+
+- Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
+- Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+- Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+- A média aritmética é o resultado da soma de todos os elementos divido pelo número total de elementos.
+- Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
+- Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+- Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+- Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+- Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+- Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
