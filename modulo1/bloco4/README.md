@@ -777,7 +777,7 @@ function calculaIPRF(salario) { //é possível colocar um valor para o parâmetr
 calculaIPRF(); //isso é chamar a função;
 
 console.log('calculo IPRF', calculaIPRF());
-//se função tiver dois parâmetros, eles deve estar definidos
+//se função tiver dois parâmetros, eles deve estar definidos;
 console.log('calculo IPRF', calculaIPRF(param1, param2));
 ```
 
