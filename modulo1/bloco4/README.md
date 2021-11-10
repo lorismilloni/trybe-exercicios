@@ -480,15 +480,25 @@ for (let index = 1; index < array.length; index += 1) {
 
 [toc]
 
-# Objetos e funções
+# Lógica de programação e algoritmos
 
-- Manipular objetos;
-- Utilizar o comando for/in;
-- Utilizar funções para organizar e estruturar o seu código;
+## Objetivos
 
-## Objetos
+- Quebrar grandes problemas em pequenos;
+- Utilizar a lógica de programação na resolução de problemas.
 
-* nos permite armazenar entradas do tipo chave: valor;
+## Algoritmos
+
+Gaste 5 minutos escrevendo um algoritmo sobre como se vestir para uma festa.
+Após escrever o algoritmo, responda as seguintes perguntas:
+
+Eu resolvi o problema?
+Havia outras maneiras de resolver o problema?
+A maneira que eu escolhi foi a mais eficiente possível, ou havia como fazer a mesma coisa com menos passos?
+Seria possível inverter ou retirar algum passo?
+Se eu fosse um computador, conseguiria entender todas as instruções?
+
+## `baby steps`
 
 ```javascript
 let name = 'Milton';
@@ -605,5 +615,169 @@ let xTrybe = ['pão', 'queijo', 'bacon', 'alface', 'ketchup', 'pão'];
 
 xTrybe.splice(2,1);
 xTrybe.indexOf('bacon');
+```
+
+## Exercícios
+
+1 - Para o primeiro exercício de hoje, faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n . Por exemplo: 
+
+```javascript
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+```
+
+2 - Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com  `5`   asteriscos de base. Por exemplo:
+
+```
+n = 5
+
+*
+**
+***
+****
+*****
+```
+
+3 - Agora inverta o lado do triângulo. Por exemplo:
+
+```javascript
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+```
+
+4 - Depois, faça uma pirâmide com  `n`  asteriscos de base:
+
+```javascript
+n = 5
+
+  *
+ ***
+*****
+```
+
+5 - Faça uma pirâmide com `n` asteriscos de base que seja vazia no meio. Assuma que o valor de  `n`  será sempre ímpar:
+
+```javascript
+Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
+n = 7
+
+   *
+  * *
+ *   *
+*******
+```
+
+6 - Faça um programa que diz se um número definido numa variável é primo ou não.
+
+- Um número primo é um número que só é divisível por 1 e por ele  mesmo, ou seja, a divisão dele com quaisquer outros números dá resto  diferente de zero.    
+- Dica: você vai precisar de fazer um loop que vá de 0 ao número  definido; Além disso, vai precisar de fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.    
+
+# Objetos e funções
+
+- Manipular objetos;
+- Utilizar o comando for/in;
+- Utilizar funções para organizar e estruturar o seu código;
+
+## Objetos
+
+* nos permite armazenar entradas do tipo chave: valor;
+
+# Aula
+
+`objetos`
+
+chave {} é a marcação; objeto é o dado, como `person` abaixo; e propriedades são os atributos que estão dentro;
+
+```javascript
+let person = {
+	firstName: 'Murilo', //aqui firstName é a chave;
+	lastName: 'Flesch',
+	age: 35,
+	canDrive: true,
+	favoriteMovies: ['see', 'matrix'],
+    adress: {
+        street: 'Antonio Cubas',
+        number: 555,
+    },
+};
+
+//é possível criar um objeto apenas com . adicionando a propriedade;
+
+let person = {}
+
+person.firstName = 'Murilo';
+person.lastName = 'Flesch';
+```
+
+`lendo objetos`
+
+```javascript
+console.log('item: ', person.firstName);
+console.log('item: ', person.favoriteMovies[1]);
+console.log('item: ', person.adress.street);
+console.log('item: ', person.['firstName']);
+```
+
+`atualizando o objeto`
+
+```javascript
+person.firstName = 'Eduardo';
+person['firstName'] = 'Eduardo';
+console.log(person.firstName);
+delete person.canDrive;
+console.log(person);
+```
+
+`iterar itens de arrays`
+
+```javascript
+for(let key in person) {
+	console.log('key in objeto:', key) //aqui mostra a chave;
+    console.log('key in objeto:', person[key]) //aqui mostra o conteúdo da chave;
+    
+    if(key == 'firstName'){
+        break;
+    }
+}
+```
+
+`for in ` e `for of`
+
+```javascript
+for(let key of pessoa) {
+	console.log('key of: ', key);
+}
+
+for(let key in pessoa) {
+	console.log('key in: ',key)
+}
+```
+
+se usar o `for in` pro array ele não vai devolver o conteúdo, vai devolver o índice.
+
+`funções`
+
+```javascript
+function calculaIPRF(salario) { //é possível colocar um valor para o parâmetro com = 50;
+    let resultado = (salario / 2) * salario;
+    
+    return resultado
+}
+
+calculaIPRF(); //isso é chamar a função;
+
+console.log('calculo IPRF', calculaIPRF());
+//se função tiver dois parâmetros, eles deve estar definidos
+console.log('calculo IPRF', calculaIPRF(param1, param2));
 ```
 
