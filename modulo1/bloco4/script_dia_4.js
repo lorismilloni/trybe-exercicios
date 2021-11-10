@@ -14,3 +14,7 @@ let info = {
 for(let key in info) {
     console.log('informações da personagem ', key)
 }
+
+for(let key in info) {
+    console.log('informações ', info[key])
+}

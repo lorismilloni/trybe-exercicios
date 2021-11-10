@@ -781,3 +781,9 @@ console.log('calculo IPRF', calculaIPRF());
 console.log('calculo IPRF', calculaIPRF(param1, param2));
 ```
 
+```javascript
+for(let key in info) {
+    console.log('informações ', info[key])
+}
+```
+
