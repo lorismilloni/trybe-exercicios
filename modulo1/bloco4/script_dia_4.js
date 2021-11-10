@@ -10,3 +10,7 @@ let info = {
   info.recorrente = 'Sim';
 
   console.log(info);
+
+for(let key in info) {
+    console.log('informações da personagem ', key)
+}
