@@ -490,7 +490,7 @@ for (let index = 1; index < array.length; index += 1) {
 
 * nos permite armazenar entradas do tipo chave: valor;
 
-```
+```javascript
 let name = 'Milton';
 let lastName = 'Nascimento';
 let nickname = 'Bituca';
@@ -501,10 +501,109 @@ let singer = {
 	name: 'Milton',
 	lastName: 'Nascimento',
 	nickname: 'Bituca',
-	age = 77,
-	bestAlbuns: ['Travessia', 'Clube da Esquina', 'Minas']
-}; 
+	age: 77,
+	bestAlbuns: ['Travessia', 'Clube da Esquina', 'Minas'],
+    bornInfo: {
+        city: 'Rio de Janeiro',
+        state: 'Rio de Janeiro',    
+	}
+};
 
 console.log('O cantor ' + singer.name + ' ' + singer.lastName + ' possui ' + singer.age + ' anos.');
+
+console.log('O cantor ' + singer['name'] + ' ' + singer['lastName'] + ' possui ' + singer['age'] + ' anos.');
+
+singer['fullName'] = singer.name + ' ' + singer.lastName;
+
+console.table(singer);
+```
+
+## For in
+
+```javascript
+let pizzas = {
+	flavor: "Palmito",
+	pryce: 39.90,
+	borderCheese: true,
+};
+
+for (let key in pizzas) {
+	console.log(key);
+	console.log(pizzas);
+	console.log(pizzas.pryce);
+	console.log(pizzas['borderCheese']);
+	console.log(pizzas);
+	console.log(pizzas.pryce);
+	console.log(pizzas[key]);
+}
+
+let pizzasDoces = ['chocolate', 'banana', 'morango'];
+
+for (let key in pizzasDoces) {
+    console.log(key, pizzasDoces[key]);
+}
+```
+
+## Funções
+
+```javascript
+function nomeDaFuncao(param1, param2) {
+    console.log(param1);
+    console.log(param2);
+    var resultado = param1 + param2;
+    return resultado;
+}
+
+nomeDaFuncao(10, 20) {
+    
+}
+```
+
+## Aula
+
+```javascript
+if(acesso === true) {
+	for(let index = 1; index <= 10; index += 1) {
+		sacola = index + 1
+		if(sacola <= 10) {
+		console.log('Existe ' + sacola + ' paes na sacola')
+        }
+    }
+} else {
+	console.log('Não possível acesar a página')
+}
+
+if(index == 0) {
+    continue;
+}
+if(index == 5) {
+    break;
+}
+```
+
+```javascript
+let qtd = 10;
+let ingredientes = ['queijo', 'presunto', 'maionese', 'pepino', 'tomate seco'];
+let sacola = [];
+
+for(let index = 0; index < 10; index += 1) {
+    //console.log('executou fora: ', index)
+    let bread = [];
+    for(let index = 0; index < ingredientes.length; index += 1) {
+    //console.log('executou dentro: ', index) //aqui usar o let cria um novo escopo para a varíavel index ter o mesmo nome e ser usada dentro desse for
+    bread.push(ingredientes[index])
+    }
+    
+    sacola.push("pão")
+}
+
+console.log("sacola: ", sacola)
+```
+
+```javascript
+let xTrybe = ['pão', 'queijo', 'bacon', 'alface', 'ketchup', 'pão'];
+
+xTrybe.splice(2,1);
+xTrybe.indexOf('bacon');
 ```
 
