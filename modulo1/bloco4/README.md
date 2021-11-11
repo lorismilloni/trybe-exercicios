@@ -746,7 +746,7 @@ for(let key in person) {
     console.log('key in objeto:', person[key]) //aqui mostra o conteúdo da chave;
     
     if(key == 'firstName'){
-        break;
+        break; //continue
     }
 }
 ```
