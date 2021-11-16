@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragraph" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "A Grande Beleza";
+      document.getElementById("second-paragraph").innerText = "Filme de Paolo Sorrentino";
+      document.getElementById("subtitle").innerText = "Você já assistiu?";
+      document.getElementsByClassName("paragraph")[0].style = color(blue);
+      document.getElementsByTagName("h4")[0].style = color(green);
+    </script>
+  </body>
+</html>
