@@ -2,6 +2,8 @@
 
 # Fundamentos do Desenvolvimento Web
 
+Tudo que você precisa saber para iniciar a carreira de desenvolvimento Web, preparando-se para os módulos de front-end e back-end.
+
 ```html
 <head>
     <title>Fundamentos do Desenvolvimento Web</title>
@@ -26,8 +28,6 @@
     </h2>
 </body>
 ```
-
-Tudo que você precisa saber para iniciar a carreira de desenvolvimento Web, preparando-se para os módulos de front-end e back-end.
 
 ## Bloco 01: Unix & Bash
 
