@@ -104,7 +104,7 @@ Inicie um novo repositório local com  `Git` no diretório que você criou na et
 
 Crie um arquivo  `index.html` ;  
 
-#### seu Portfólio Web deve ter as seguintes informações:
+### seu Portfólio Web deve ter as seguintes informações:
 
 Seu nome completo;    
 
@@ -125,7 +125,7 @@ Um índice com links internos para as diferentes seções do seu portfólio.
 # 3.2 - HTML & CSS - Primeiros passos em CSS
 
 - Criar regras de estilo para tags HTML utilizando o CSS;  
-- Utilizar os seletores de `tag` , `id` e  `class` para aplicar regras de CSS;  
+- Utilizar os seletores de `tag` , `id` e  `class` para aplicar regras de CSS;
 - Alterar características da *fonte* e das cores de páginas web;  
 - Utilizar CSS *inline* e *externo*.  
 
@@ -406,7 +406,7 @@ Como os elementos se relacionam na tela em uma página HTML renderizada no brows
 
 ### box model
 
-![](/home/lorisms/Documentos/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
+![](/home/lorisms/Trybe/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
 
 `padding`
 
@@ -618,7 +618,7 @@ Na listagem de linguagens de programação, faça com que as 3  primeiras da lis
 - Adicione `margin` e `padding` nos elementos que julgar necessário;    
 - Coloque estilo somente nos itens ímpares da lista das suas habilidades. 
 
-##### como ver as divs
+## como ver as divs
 
 **no html**
 
@@ -739,31 +739,35 @@ mudando a propriedade
 }
 ```
 
-### Header <header>
+## Header <header>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
 
-### Navigation <nav>
+## Navigation <nav>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
 
-### Sidebars <aside>
+## Sidebars <aside>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
-### Compositions <article>
+## Compositions <article>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
 
-### Sections <section>
+## Sections <section>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
 
-### Footer <footer>
+## Footer <footer>
 
 [Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
 
-## Aula
+## Table <table>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+
+### Aula
 
 ```html
 <body>
@@ -800,3 +804,50 @@ mudando a propriedade
     </main>
 </body>
 ```
+```
+
+### Exercícios
+
+Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
+Adicione um conjunto de links que representam a área de navegação do site.
+
+- Crie um link chamado Página Inicial .
+- Crie um link chamado Sobre .
+- Crie um link chamado Contato .
+
+Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
+Divida o artigo em seções, organizando-o da seguinte forma:
+
+- Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico, que é Odontodactylus scyllarus, em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino , Filo , Subfilo , Classe , Subclasse e Ordem . Tais informações você consegue obter na Wikipedia.
+- As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
+- Adicione, para cada seção, um subtítulo referente ao fato escolhido.
+- Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido.
+- Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do Stomatopoda . Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h) em negrito.
+- Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
+  Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
+
+Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
+Adicione um rodapé na página, mostrando algo do gênero:
+
+`"Conteúdo compilado por <insere seu nome>, <ano atual>".`
+
+Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img.
+
+[toc]
+
+# 3.5 - Projeto: Lessons learned
+
+## Objetivos
+
+- Entender como funciona a estrutura (HTML) de uma página;
+- Entender como o estilo (CSS) é aplicado à página.
+- Construir páginas utilizando HTML e CSS;
+- Realizar manutenções em páginas já existentes;
+- Aplicar Layout e Box Model na prática;
+
+## O que vamos avaliar?
+
+- Aderência do código à especificação. Sua página deve se comportar como especificado na próxima seção.
+- Organização do seu código. Construa a estrutura do seu HTML dividindo as tags adequadamente e faça commits organizados.
+- Sua capacidade de estruturar semanticamente uma página HTML . Utilize as tags corretas, bem indentadas e com as classes e ids adequados.
+- A estrutura do seu CSS . Evite repetição. Combine e agrupe classes CSS bem definidas.
