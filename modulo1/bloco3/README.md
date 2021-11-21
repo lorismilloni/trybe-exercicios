@@ -362,3 +362,441 @@ O ideal é que o HTML seja para estrutura e o CSS seja para formatação, para q
 
 O CSS também é responsável pelo *layout* da página. Saber criar regras específicas que selecionam os elementos de maneira apropriada e posicioná-los na página permite que você  organize as informações da página como quiser.
 Seletores de pseudoclasses permitem que você adicione lógica condicional de estilização.
+
+Como os elementos se relacionam na tela em uma página HTML renderizada no browser:
+
+`display`, `overflow`, `height`  e `width`
+
+### style.css
+
+```css
+.img {
+	width: 500px;
+}
+
+.exemplo-de-classe {
+    color: blue;
+}
+
+.paragrafos {
+    background-color: rgb(240, 240, 240);
+    width: 500px; // ou valor relativo, como: 80%;
+    height: 300px;
+    overflow-y: auto;  // padrao: visible;
+    overflow-x: auto; // y = vertical, x = horizontal;
+}
+```
+
+### index.html
+
+```
+<span class="exemplo-de-classe">exemplo de texto</span>
+<div class="paragrafos">
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+```
+
+`<span>` é inline
+
+`<div>` é do tipo bloco, fica um em cima do outro, e não um do lado do outro
+
+`img` é inline
+
+### box model
+
+![](/home/lorisms/Documentos/trybe-exercicios/modulo1/bloco3/3.3/caixahtml.png)
+
+`padding`
+
+`border`: `border-width: medium;`,`border-style: none;` e `border-color: currentcolor`
+
+`margin`
+
+`display`
+
+`text-align`
+
+`vertical-align`
+
+### posicionamento e elementos flutuantes
+
+```css
+<style>
+	#praia {
+		width:450px;
+		position: absolute;
+        top: 20px;
+        left: 10px;
+        z-index: 1;
+	}
+
+	#coqueiro {
+    	width: 50px;
+        float: left;
+        margin-right: 10px;
+	}
+	
+	h1 {
+        position: absolute;
+        z-index: 3;
+        left: 30px;
+	}
+	
+	#song {
+    	position: absolute;
+        z-index: 4;
+        top: 200px;
+	}
+
+</style>
+<body>
+<div id="song">
+<h1>Como uma onda</h1>
+```
+
+### seletores e pseudoclasses
+
+```css
+p div {
+    // descêndencia de elementos
+}
+
+p, div {
+    // todos os parágrafos e todas as divs
+}
+
+p.perigo {
+    border: 5px solid yellow;
+}
+
+li:hover {
+    background-color: green;
+}
+
+li:active {
+    color: white;
+}
+
+/* :focus
+/* :transition
+```
+
+### combinações de classes e classes descendentes
+
+```css
+    p {
+        font-family: monospace;
+    }
+
+	.fato {
+        border-top: 1px solid rgb(222, 222, 222);
+        border-bottom: 1px solid rgb(222, 222, 222);
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .perigo {
+        background-color: red;
+        color: white;
+        border: 5px solid yellow;
+    }
+
+    p.perigo { // todos os parágrafos que tem a classe perigo dentro
+        border: 5px solid yellow;
+    }
+
+    ul.classe li p { // todos os ul que tem o filho li que tem o filho p, ainda é possível adicionar uma classe específica
+		background-color: green;
+        color: white;
+    }
+```
+
+### exercícios
+
+Posicione o Mário acima do Goomba.
+Posicione a tag p para que fique dentro do balão de fala.
+Posicione o balão para que se torne uma fala de Bowser.
+
+Adicione uma lista ordenada dos 3 melhores sites que você conhece.
+Crie um arquivo no mesmo diretório e nomeie-o de 'style.css'.
+Nesse arquivo .css, adicione os estilos para que:
+O texto das tags 'h1' e 'p' estejam centralizados.
+A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+A fonte do item mude quando ele for clicado.
+Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
+No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
+
+Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
+Faça cada div ter uma cor própria.
+Estilize cada uma das tags `h3` .
+Faça a terceira div ser maior que as demais.
+Deixe as tags ímpares `h3`  com o texto em itálico.
+Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela. Se a numeração do item for PAR, faça a cor de fonte ser verde. Se o número for considerado ÍMPAR, utilize a propriedade  text-transform para deixar o texto maiúsculo. (Dica: combinar classes  pode ser útil aqui).
+Faça todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e, se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida.
+Faça todas as li's terem 20px de tamanho de fonte e, para todo  texto em itálico dentro de alguma li, utilize a propriedade font-weight  para deixá-lo negrito.
+Na listagem de linguagens de programação, faça com que as 3  primeiras da lista possuam cor de fonte azul e, se alguma possuir  "java" no texto, utilize uma cor de fundo rosa.
+(Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto  fique em negrito e assuma a cor de fonte "temática do site".
+**Dica 1:** Utilize o seletor :hover para controlar o passar do mouse.
+**Dica 2:** Sugestão de cores padrão. StackOverflow (laranja), W3Schools (verde), MDN (preta), DevDocs (amarela), Trybe (verde).
+
+### aula
+
+```css
+<head>
+	* {
+    	margin: 0;
+        padding: 0;
+	}
+</head>
+<body>
+	.header {
+		background-image: url(images/imagem.jpg);
+        background-size: cover;
+        height: 600px;
+        background-position: 50% 25%;
+        padding: 60px 30px 40px 30px;
+	}
+
+	.header-container {
+		max-width: 60%;
+        margin-left: 75px;
+	}
+
+    .market-text {
+        max-width: 60%;
+        margin: 50px auto;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .student-testimonial {
+        width: 80;
+        padding: 30px;
+        margin: auto;
+    }
+
+    .student-container {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        vertical-align: middle;
+    }
+
+    .learning-rigth {
+        float: rigth;
+    }
+
+    .footer {
+        clear: both;
+    }
+</body>
+```
+
+```html
+<body>
+	<ul>
+        <li>Item</li>
+        <p>Parágrafo filho</p>
+    </ul>    
+</body>
+```
+
+### exercícios portfolio
+
+- Aplicar layout mais consistente usando elementos de bloco e inline, aplicando todo o conhecimento que você construiu hoje;    
+- Salvar todas as estilizações dentro de um arquivo externo `style.css`;    
+- Usar *Box Model* para organizar melhor os elementos no seu *Portfólio Web*;    
+- Atualizar seu *Portfólio Web* no  [GitHub Pages](https://pages.github.com/).    
+- Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;    
+- A descrição deve ficar *ao lado* da foto;    
+- Centralize seu nome na página;    
+- Use `padding` e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;    
+- Adicione `margin` e `padding` nos elementos que julgar necessário;    
+- Coloque estilo somente nos itens ímpares da lista das suas habilidades. 
+
+##### como ver as divs
+
+**no html**
+
+```html
+<div>
+	<div>
+		<div>
+		</div>
+	</div>
+</div>
+```
+
+**no css**
+
+```css
+div {
+    border: 2px solid green;
+}
+```
+
+**recurso interessante**
+
+```css
+ul li:nth-child(odd) {
+	color: red;
+}
+```
+
+**é possível visualizar e alterar elementos na página, usando o inspecionar**
+
+[toc]
+
+# 3.4 - HTML Semântico
+
+- Fazer uso de elementos HTML de acordo com o sentido e o propósito que eles carregam. Tais elementos incluem, mas não se limitam a: header, nav, aside, article, section, footer e img;
+- Criar páginas semanticamente válidas e acessíveis;
+- Entender a diferença entre elementos de bloco e elementos inline.
+
+Aplicar elementos HTML resulta em páginas melhor ranqueadas em motores de busca (e.g. Google) e mais acessíveis.
+
+`html` representa o tipo do documento em questão, que nesse caso é HTML;
+`head` representa os metadados do documento HTML, tais como o título do documento, links para arquivos CSS e JavaScript de que o documento precisa;
+`body` representa todo o conteúdo visual do documento HTML;
+`form` representa um formulário para que o usuário consiga inserir dados.
+
+`table`, `footer`, `header`, `article`, `aside`, `nav`, `main`, `section`, `article`
+
+wcag: world content acessibility guidelines
+
+## elementos de bloco e elementos inline
+
+### elementos block
+
+- ocupam 100% da largura do elemento pai;
+- ocupam a própria linha, sendo posicionados abaixo do elemento anterior;
+- a altura padrão é definida pelo tamanho do conteúdo;
+- é possível alterar as propriedades de tamanho e largura;
+- é possível alterar todas as propriedades de margem;
+
+```css
+div
+section
+ul
+li
+header
+p
+```
+
+### elementos inline
+
+- ocupam a largura do próprio conteúdo;
+- dois ou mais elementos inline em sequência, são posicionados lado a lado;
+- não é possível alterar as propriedades de altura e largura;
+- somente é possível alterar as margens horizontais;
+- ao aplicar float, automaticamente se transformam em elementos block;
+- se comportam como um texto;
+
+```html
+a
+span
+b
+i
+```
+
+### elementos inline-block
+
+- ocupam por padrão a largura do conteúdo;
+- dois ou mais elementos inline-block em sequência, são posicionados lado a lado;
+- é possível alterar as propriedades de tamanho e largura;
+- é possível alterar todas as propriedades de margem;
+
+```css
+.nav-links li {
+	display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+```
+
+mudando a propriedade
+
+```html
+<nav id="nav">
+	<ul class="nav-links">
+		<li> <a href="">Home</a></li>
+		<li> <a href="">Perfil</a></li>
+        <li> <a href="">Contatos</a></li>
+	</ul>
+</nav>
+```
+
+```css
+.nav-links li {
+	display: inline;
+    width: 100px;
+    height: 50px;
+}
+```
+
+### Header <header>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+
+### Navigation <nav>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
+### Sidebars <aside>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+### Compositions <article>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+
+### Sections <section>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+
+### Footer <footer>
+
+[Represents](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
+
+## Aula
+
+```html
+<body>
+    <h1 style="display: none;">Título do body</h1>
+    <header>
+        <section>
+            <h1></h1>
+            <h2></h2>
+        </section>
+        <nav>
+        </nav>
+	</header>
+    <main>
+        <div>
+            <article>
+                <h2>Título do artigo</h2>
+            </article>
+            <section>
+            	<article>
+                	<h3>Título do artigo</h3>
+            	</article>
+            </section>
+        </div>
+        <aside>
+            <section>
+                <h2>Título</h2>
+            </section>
+            <section>
+                <h2>Título</h2>
+            </section>
+        </aside>
+        <footer>
+        </footer>
+    </main>
+</body>
+```
