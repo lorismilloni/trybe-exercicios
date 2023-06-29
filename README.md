@@ -15,4 +15,4 @@
 
 - [Simple Todo List](07_simple_todo_list/): how to manipulate DOM to create and delete items using JS, HTML, CSS
 
-- [Zoo Functions](08_zoo_funcitons/): learning how to use High Order Functions using JS ES6, Jest
+- [Zoo Functions](08_zoo_functions/): learning how to use High Order Functions using JS ES6, Jest
