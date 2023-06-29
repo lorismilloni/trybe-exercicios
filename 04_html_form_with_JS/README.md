@@ -11,3 +11,4 @@
 
 - download the repo;
 - type `npm install` and press inter in your terminal;
+- open the index.html in your browser;
