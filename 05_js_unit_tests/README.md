@@ -8,5 +8,9 @@
 #### To be able to see the tests running:
 
 - download the repo;
+
 - type `npm install` and press inter in your terminal;
+
 - type `npm test` and press enter, the tests will run;
+
+  
