@@ -1,8 +1,7 @@
 ### Those are the projects I developed to learn web development fundamentals
 
 #### Here is a list:
-- [Lessons Learned: my first website](web_development_fundamentals/01_lessons_learned/)
-HTML, CSS
+- [Lessons Learned: my first website](01_lessons_learned/) using HTML, CSS
 
 - Playground Functions: playing with JavaScript to learn logic
 JS
