@@ -11,3 +11,7 @@
 
 - Apply Layout and Box Model in practice.
 
+#### To be able to see my project running:
+
+- download the repo;
+- open the index.html on your browser;
