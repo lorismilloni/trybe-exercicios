@@ -10,5 +10,9 @@ A to do list using JavaScript, CSS and HTML.
 #### To be able to see my project running:
 
 - download the repo;
+
 - type `npm install` and press inter in your terminal;
+
 - open the index.html in your browser and test the project;
+
+  
