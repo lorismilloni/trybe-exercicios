@@ -16,3 +16,6 @@
 - [Simple Todo List](07_simple_todo_list/): how to manipulate DOM to create and delete items using JS, HTML, CSS
 
 - [Zoo Functions](08_zoo_functions/): learning how to use High Order Functions using JS ES6, Jest
+
+#### Projects made betweent november, 2021 and january, 2022
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg' width='45'/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg' width='45'/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' width='45'/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' width='45'/> 
