@@ -1,0 +1,39 @@
+.color {
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.cor1 {
+    background-color: black;
+
+}
+
+#pixel-board {
+    border: 1px solid black;
+    /* width: 210px; */
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.pixel {
+    border: solid black 1px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.linha {
+    display: inline-block;
+}
+
+.selected {
+        
+}
+
+#title {
+
+}
