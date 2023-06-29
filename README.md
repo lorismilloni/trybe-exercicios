@@ -1,25 +1,18 @@
 ### Those are the projects I developed to learn web development fundamentals
 
 #### Here is a list:
-- [Lessons Learned: my first website](01_lessons_learned/) using HTML, CSS
+- [Lessons Learned](01_lessons_learned/): my first website using HTML, CSS
 
-- Playground Functions: playing with JavaScript to learn logic
-JS
+- [Playground Functions](02_playground_functions/): playing with JavaScript to learn logic using JS
 
-- Pixels Art: learning how to manipulate DOM to build a basic color palette
-JS, HTML, CSS
+- [Pixels Art](03_pixels_art/): learning how to manipulate DOM to build a basic color palette using JS, HTML, CSS
 
-- HTML form with JS: how to create a form and validate data
-JS, HTML, CSS
+- [HTML form with JS](04_html_form_with_JS/): how to create a form and validate data using JS, HTML, CSS
 
-- JS unit tests: how to use Jest to test functions
-JS, Jest
+- [JS unit tests](05_js_unit_tests/): how to use Jest to test functions using JS, Jest
 
-- Shopping Cart: how to request from and API and add and delete products from cart
-JS, HTML, CSS, Jest
+- [Shopping Cart](06_shopping_cart/): how to request from and API and add and delete products from cart using JS, HTML, CSS, Jest
 
-- Simple Todo List: how to manipulate DOM to create and delete items
-JS, HTML, CSS
+- [Simple Todo List](07_simple_todo_list/): how to manipulate DOM to create and delete items using JS, HTML, CSS
 
-- Zoo Functions: learning how to use High Order Functions
-JS ES6, Jest
+- [Zoo Functions](08_zoo_funcitons/): learning how to use High Order Functions using JS ES6, Jest
