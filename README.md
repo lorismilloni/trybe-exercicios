@@ -1,4 +1,5 @@
 ### Those are the projects I developed to learn web development fundamentals
+There are installing instructions in each folder
 
 #### Here is a list:
 - [Lessons Learned](01_lessons_learned/): my first website using HTML, CSS
