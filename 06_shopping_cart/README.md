@@ -1,5 +1,5 @@
 # Shopping Cart
-Made in **22/01/2021**.
+Made in **22/01/2022**.
 
 #### In this project I've developed a shopping cart with HTTP requests to an Application Programming Interface from a Latin America famous online store. The goal was to show products that were available requesting the API, and use my knowledge in JavaScript and HTML (with DOM) to add products to cart, add his values and remove products from cart. We also learned how to use async functions, and implemented unit tests.
 
